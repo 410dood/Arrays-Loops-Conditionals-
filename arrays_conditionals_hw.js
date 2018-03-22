@@ -137,13 +137,20 @@ console.log(thomsCloset[2]);
 
 // "COMMIT 8 - I loops through their closets".
 
-/* Multiples of 3 and 5
-Yes, you might have tackled this earlier, but try it again (don't look back at your other code 👀)
+//Multiples of 3 and 5
 
-If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+//Find the sum of all the multiples of 3 or 5 below 1000.
+let multiples = 0;
+for (let i = 0; i <= 1000; i++) {
+  if (i % 3 === 0) {
+  console.log(multiples[i]);
+}
+  if (i % 5 === 0) {
+    console.log(multiples[i]);
+  }
+}
 
-Find the sum of all the multiples of 3 or 5 below 1000.
-
+/*
 👏 You just solved Project Euler problem 1! 👏
 
 🔴 The commit message should read:
