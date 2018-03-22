@@ -28,13 +28,45 @@ for (i = 0; i < 20; i++) {
 
 
 //"COMMIT 3 - Excited Kittens answered"
+//Fizz Buzz
 
 
-/*
-Fizz Buzz
-Write a javascript application that logs all numbers from 1 - 100.
+var fuzz=[];
+for (var i = 1; i <= 100; i++) {
+    console.log(i);
+    if (3===0);
+    console.log("fizz");
+    if (5===0);
+    console.log("Buzz");
+    if (3===0 && 5===0);
+    console.log("FizzBuzz");
+  }
 
-If a number is divisible by 3 log "Fizz" instead of the number.
+/*  if (fuzz.length == 5) {
+    fuzz=[];
+  }
+  fuzz.push(i);
+}
+console.log(fuzz);
+*/
+//function fizzBuzz(){
+//   var counter = 1;
+//   while (counter<=100) {
+//     console.log(counter);
+//     if(counter%3===0 && counter%5===0){
+//       console.log(`FizzBuzz ${counter}`);
+//     if(counter%3===0) {
+//       console.log(`Fizz ${counter}`);
+//     if(counter%5===0){
+//       console.log(`Buzz ${counter}`);
+//         }
+//       }
+//     }
+//     counter++;
+//   }
+// }
+// fizzBuzz();
+/*If a number is divisible by 3 log "Fizz" instead of the number.
 
 If a number is divisible by 5 log "Buzz" instead of the number.
 
