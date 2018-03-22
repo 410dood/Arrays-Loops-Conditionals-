@@ -42,53 +42,28 @@ for (var i = 1; i <= 100; i++) {
     console.log("FizzBuzz");
   }
 
-/*  if (fuzz.length == 5) {
-    fuzz=[];
-  }
-  fuzz.push(i);
-}
-console.log(fuzz);
-*/
-//function fizzBuzz(){
-//   var counter = 1;
-//   while (counter<=100) {
-//     console.log(counter);
-//     if(counter%3===0 && counter%5===0){
-//       console.log(`FizzBuzz ${counter}`);
-//     if(counter%3===0) {
-//       console.log(`Fizz ${counter}`);
-//     if(counter%5===0){
-//       console.log(`Buzz ${counter}`);
-//         }
-//       }
-//     }
-//     counter++;
-//   }
-// }
-// fizzBuzz();
-/*If a number is divisible by 3 log "Fizz" instead of the number.
+// "COMMIT 4 - Fizz Buzz answered"
 
-If a number is divisible by 5 log "Buzz" instead of the number.
-
-If a number is divisible by 3 and 5 log "FizzBuzz" instead of the number.
-
-🔴 The commit message should read:
-"Commit 4 - Fizz Buzz answered"
-Getting to Know You
-Use the following arrays to answer the questions below (name, age, hometown):
 
 const thom = ["Thom", 1000, "Christchurch"]
 const karolin = ["Karolin", 16, "New York"]
 const kristyn = ["Kristyn", 5, "Pittsburgh"]
 const matt = ["Matt H", 186, "Philadelphia"]
-Matt H. decides that Thom. can't be named "Thom" anymore. Remove "Thom" from the thom array and replace it with "Gameboy".
+//Matt H. decides that Thom. can't be named "Thom" anymore. Remove "Thom" from the thom array and replace it with "Gameboy".
+thom.splice(0, 1, 'Gameboy');
+console.log(thom);
+// Karolin just had her birthday; change Karolin's array to reflect her being a year older.
+karolin.splice(1,1,'17');
+console.log(karolin);
+//Change Matt H's hometown from Philadelphia to "Gotham City".
+matt.splice(2,1,"gotham city");
+console.log(matt);
+//Remove "Pittsburgh" from Kristyn's array and add "Brooklyn".
+kristyn.pop();
+kristyn.push("Brooklyn");
+console.log(kristyn);
 
-Karolin just had her birthday; change Karolin's array to reflect her being a year older.
-
-Change Matt H's hometown from Philadelphia to "Gotham City".
-
-Remove "Pittsburgh" from Kristyn's array and add "Brooklyn".
-
+/*
 🔴 The commit message should read:
 "Commit 5 - Getting to Know You answered"
 Yell at the Ninja Turtles
