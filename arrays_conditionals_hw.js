@@ -120,18 +120,24 @@ kristynOutfit = Math.floor((Math.random() * (kristynsCloset.length)));
 console.log("Kristyn's outfits are: " + kristynsCloset[kristynOutfit] + " " + "and" + " " + kristynsCloset[kristynOutfit]);
 }
 
-/*
-🔴 The commit message should read:
-"Commit 7 - Kristyn and Thom have their outfits ready for class - array practice"
-Dirty Laundry
-Continue looking at the closet arrays:
+//"COMMIT 7 - Kristyn and Thom have their outfits ready for class - array practice"
 
-Time to do laundry - loop through Kristyn's closet and log the sentence "WHIRR: Now washing (item)" for each item in the array.
-Inventory
-Thom wants to do inventory on his closet. Using bracket notation, log the arrays containing all of Thom's shirts, pants, and accessories.
-🔴 The commit message should read:
-"Commit 8 - I loops through their closets".
-Multiples of 3 and 5
+//Time to do laundry - loop through Kristyn's closet and log the sentence "WHIRR: Now washing (item)" for each item in the array.
+
+for (let i = 0; i < kristynsCloset.length; i++) {
+  console.log("WHIRR: Now Washing " + kristynsCloset[i]);
+}
+
+//Thom wants to do inventory on his closet. Using bracket notation, log the arrays containing all of Thom's shirts, pants, and accessories.
+
+console.log(thomsCloset[0]);
+console.log(thomsCloset[1]);
+console.log(thomsCloset[2]);
+
+
+// "COMMIT 8 - I loops through their closets".
+
+/* Multiples of 3 and 5
 Yes, you might have tackled this earlier, but try it again (don't look back at your other code 👀)
 
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
