@@ -74,11 +74,7 @@ for (let i = 0; i < ninja.length; i++) {
     console.log(ninja[i].toUpperCase());
 }
 
-/*
-🔴 The commit message should read:
-"Commit 6 - Yell at the Ninja Turtles answered"
-Return of the Closets
-Below, we've given you examples of Kristyn and Thom's closets modeled as data in JavaScript. Use this data to answer the following questions.
+//"COMMIT 6 - Yell at the Ninja Turtles answered"
 
 const kristynsCloset = [
   "left shoe",
@@ -110,10 +106,21 @@ const thomsCloset = [
     "raybans"
   ]
 ];
-Alien Attire
-Kristyn's left shoe has traveled through time and space and turned up in Thom's accessories drawer! Remove Kristyn's shoe from the array and save it to the variable kristynsShoe. Use that variable to add Kristyn's lost shoe to Thom's accessories array.
-Dress Us Up
-Modify your code to put together 3 separate outfits for Kristyn and Thom. Put the output in a sentence to tell us what we'll be wearing. Mix and match!
+kristynsShoe = kristynsCloset[0];
+console.log(kristynsCloset[0]);
+
+thomsCloset[2].push(kristynsShoe);
+console.log(thomsCloset);
+
+
+//Modify your code to put together 3 separate outfits for Kristyn and Thom. Put the output in a sentence to tell us what we'll be wearing. Mix and match!
+for (let i = 0; i <= 2; i++) {
+
+kristynOutfit = Math.floor((Math.random() * (kristynsCloset.length)));
+console.log("Kristyn's outfits are: " + kristynsCloset[kristynOutfit] + " " + "and" + " " + kristynsCloset[kristynOutfit]);
+}
+
+/*
 🔴 The commit message should read:
 "Commit 7 - Kristyn and Thom have their outfits ready for class - array practice"
 Dirty Laundry
