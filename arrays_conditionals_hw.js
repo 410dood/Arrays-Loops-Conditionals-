@@ -63,14 +63,18 @@ kristyn.pop();
 kristyn.push("Brooklyn");
 console.log(kristyn);
 
+//"COMMIT 5 - Getting to Know You answered"
+
+//Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
+var ninja = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo']
+console.log(ninja);
+
+//Use a for loop to call toUpperCase() on each of them and print out the result.
+for (let i = 0; i < ninja.length; i++) {
+    console.log(ninja[i].toUpperCase());
+}
+
 /*
-🔴 The commit message should read:
-"Commit 5 - Getting to Know You answered"
-Yell at the Ninja Turtles
-Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
-
-Use a for loop to call toUpperCase() on each of them and print out the result.
-
 🔴 The commit message should read:
 "Commit 6 - Yell at the Ninja Turtles answered"
 Return of the Closets
